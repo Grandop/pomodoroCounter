@@ -70,7 +70,7 @@
                     </view>
                     <connections>
                         <outlet property="buttonActionOutlet" destination="gcC-Ey-5B4" id="AXr-gE-E8P"/>
-                        <outlet property="chossingTechnique" destination="a03-g8-OUf" id="rcN-ou-JJ4"/>
+                        <outlet property="choosingTechnique" destination="a03-g8-OUf" id="rcN-ou-JJ4"/>
                         <outlet property="timeLabel" destination="HKL-qj-iOt" id="jfd-7g-LFB"/>
                     </connections>
                 </viewController>

@@ -12,8 +12,7 @@ class ViewController: UIViewController {
     var timer = Timer()
     var time = 1500
     
-    
-    @IBOutlet weak var chossingTechnique: UISegmentedControl!
+    @IBOutlet weak var choosingTechnique: UISegmentedControl!
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var buttonActionOutlet: UIButton!
     
@@ -71,7 +70,7 @@ class ViewController: UIViewController {
         }
 
     func defineOption() {
-        switch chossingTechnique.selectedSegmentIndex {
+        switch choosingTechnique.selectedSegmentIndex {
         case 0:
             timeLabel.text = "25:00"
             time = 1500
