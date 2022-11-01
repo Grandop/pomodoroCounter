@@ -10,7 +10,6 @@ import UIKit
 class ViewController: UIViewController {
     
     var timer = Timer()
-    //var isTimerStarted = false
     var time = 1500
     
     
@@ -75,17 +74,17 @@ class ViewController: UIViewController {
         switch chossingTechnique.selectedSegmentIndex {
         case 0:
             timeLabel.text = "25:00"
-            time = 1500//1500
+            time = 1500
             timer.invalidate()
             buttonActionOutlet.setTitle("Start", for: .normal)
         case 1:
             timeLabel.text = "05:00"
-            time = 300//300
+            time = 300
             timer.invalidate()
             buttonActionOutlet.setTitle("Start", for: .normal)
         case 2:
             timeLabel.text = "15:00"
-            time = 900//900
+            time = 900
             timer.invalidate()
             buttonActionOutlet.setTitle("Start", for: .normal)
         default:
